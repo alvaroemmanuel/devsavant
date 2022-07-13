@@ -1,0 +1,21 @@
+{
+    "name": "webdriverio-tests",
+    "version": "0.1.0",
+    "private": true,
+    "devDependencies": {
+        "@wdio/cli": "^7.20.5",
+        "@wdio/cucumber-framework": "^7.20.3",
+        "@wdio/local-runner": "^7.20.5",
+        "@wdio/spec-reporter": "^7.20.3",
+        "chromedriver": "^103.0.0",
+        "unirest": "^0.6.0",
+        "wdio-chromedriver-service": "^7.3.2",
+        "wdio-vscode-service": "^3.0.2"
+    },
+    "scripts": {
+        "wdio": "wdio run wdio.conf.js",
+        "wdio:timezone": "wdio run wdio.conf.js --suite timezone",
+        "wdio:negative": "wdio run wdio.conf.js --suite negative",
+        "wdio:google": "wdio run wdio.conf.js --suite google"
+    }
+}
