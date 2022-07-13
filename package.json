@@ -13,9 +13,9 @@
         "wdio-vscode-service": "^3.0.2"
     },
     "scripts": {
-        "wdio": "wdio run wdio.conf.js",
-        "wdio:timezone": "wdio run wdio.conf.js --suite timezone",
-        "wdio:negative": "wdio run wdio.conf.js --suite negative",
-        "wdio:google": "wdio run wdio.conf.js --suite google"
+        "test": "wdio run wdio.conf.js",
+        "test:timezone": "wdio run wdio.conf.js --suite timezone",
+        "test:negative": "wdio run wdio.conf.js --suite negative",
+        "test:google": "wdio run wdio.conf.js --suite google"
     }
 }
