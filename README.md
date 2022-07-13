@@ -7,9 +7,9 @@
 
 #### Installation
 
-`git clone https://github.com/alvaroemmanuel/devsavant.git`
-`git checkout emmanuel_valle`
-`npm install`
+1. `git clone https://github.com/alvaroemmanuel/devsavant.git`
+2. `git checkout emmanuel_valle`
+3. `npm install`
 
 #### Running all the tests
 
